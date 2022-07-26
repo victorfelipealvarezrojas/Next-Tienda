@@ -20,7 +20,7 @@ const CartPage = () => {
               {/* Orden Sumary  */}
               <OrderSummary/>
               <Box sx={{mt:3}}>
-                <Button className="circular-btn"  color="secondary">
+                <Button className="circular-btn"  color="secondary" fullWidth>
                   Checkout
                 </Button>
               </Box>

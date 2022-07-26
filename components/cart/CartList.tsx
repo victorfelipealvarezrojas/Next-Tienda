@@ -15,7 +15,7 @@ interface Props {
     editable?: boolean;
 }
 
-export const CartList: FC<Props> = ({ editable = true }) => {
+export const CartList: FC<Props> = ({ editable = false }) => {
 
     return (
         <>
